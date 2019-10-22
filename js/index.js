@@ -18,5 +18,12 @@ window.addEventListener('load', function () {
     		}
     		main[this.getAttribute('data-index')].classList.remove('hide');
     	})
-    }
+	};
+	
+	var rankList = this.document.querySelectorAll('.rank_list');
+	rankList.forEach(function(ele) {
+		ele.addEventListener('click', function() {
+			location.href = './rank.html';
+		})
+	})
 })
