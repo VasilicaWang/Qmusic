@@ -70,6 +70,10 @@ header {
     overflow: hidden;
 }
 
+.head_load {
+    font-size: .373333rem;
+}
+
 .head_load a {
     display: inline-block;
     height: .666667rem;
