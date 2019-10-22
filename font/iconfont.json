@@ -1,0 +1,114 @@
+{
+  "id": "1456837",
+  "name": "Q音乐",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "258653",
+      "name": "推荐",
+      "font_class": "tubiao303",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "1163322",
+      "name": "麦克风",
+      "font_class": "ktv",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "1288599",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1309821",
+      "name": "播放",
+      "font_class": "bofang1",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "1621427",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1621429",
+      "name": "播放暂停",
+      "font_class": "bofangzanting",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "2076196",
+      "name": "赞",
+      "font_class": "zan",
+      "unicode": "e870",
+      "unicode_decimal": 59504
+    },
+    {
+      "icon_id": "3198971",
+      "name": "树叶",
+      "font_class": "shuye",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "3872997",
+      "name": "会员",
+      "font_class": "huiyuan",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "4867364",
+      "name": "下载",
+      "font_class": "xiazai",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "7171413",
+      "name": "创享钻石",
+      "font_class": "chuangxiangzhizunvip",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7313475",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8358894",
+      "name": "心1",
+      "font_class": "xin",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "8546046",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "9509963",
+      "name": "上涨",
+      "font_class": "shangzhang",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}

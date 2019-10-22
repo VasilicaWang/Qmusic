@@ -1,0 +1,224 @@
+/* 遮罩 */
+.mask {
+    display: none;
+}
+
+.mask_in {
+    width: 7.893333rem;
+    background-color: #fff;
+    border-radius: .133333rem;
+}
+
+.mask_top {
+    padding: .8rem;
+    text-align: center;
+}
+
+.mask_top h3 {
+    margin-top: 0;
+    font-size: .533333rem;
+}
+
+.mask_top p {
+    font-size: .426667rem;
+    color: #464646;
+}
+
+.mask_in .btn-group {
+    width: 100%;
+}
+
+.mask_in .btn-default {
+    width: 50%;
+    border-radius: 0;
+    height: 1.173333rem;
+    border-bottom: 0;
+    font-size: .426667rem;
+    border-color: #f0f1f3;
+}
+
+.mask_in .btn-default:last-child {
+    border-right: 0;
+    color: #40c685;
+}
+
+.mask_in .btn-default:first-child {
+    border-left: 0;
+    color: #464646;
+}
+
+
+
+/* 头部 */
+header {
+    height: 1.493333rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .533333rem;
+    box-shadow: 0 .133333rem .133333rem rgba(0, 0, 0, .02);
+}
+
+.logo_brand {
+    margin: 0;
+}
+
+.logo_brand a {
+    display: block;
+    height: 1.226667rem;
+    line-height: 1.226667rem;
+    background: url(../img/brand.png) no-repeat left center;
+    background-size: contain;
+    font-size: .426667rem;
+    color: #000;
+    font-weight: 400;
+    padding-left: 1.466667rem;
+}
+
+.view_more {
+    padding: .08rem .32rem;
+    border: .026667rem solid #b9b9b9;
+    border-radius: .373333rem;
+    font-size: .373333rem;
+}
+
+.view_more a {
+    font-size: .373333rem;
+    color: #121212;
+}
+
+/* 榜头 */
+.rank_top {
+    text-align: center;
+}
+
+.top_img {
+    width: 5.066667rem;
+    height: 5.066667rem;
+    border-radius: .4rem;
+    overflow: hidden;
+    margin: .4rem auto .533333rem;
+    box-shadow: 0 .106667rem .266667rem rgba(0,0,0,.3);
+}
+
+.top_img img {
+    width: 100%;
+}
+
+.rank_top h3 {
+    font-size: .426667rem;
+    font-weight: 400;
+}
+
+.rank_top p {
+    margin: .4rem 0;
+    font-size: .4rem;
+}
+
+.rank_top span {
+    font-size: .346667rem;
+    color: #939393;
+}
+
+.listen {
+    height: 1.066667rem;
+    width: 5.066667rem;
+    line-height: 1.066667rem;
+    margin: .266667rem auto;
+    background-color: #22d59d;
+    color: #fff;
+    border-radius: .533333rem;
+}
+
+.listen .icon-bofang {
+    color: #fff;
+    font-size: .693333rem;
+}
+
+main {
+    padding: 0 .4rem;
+}
+
+main h5 {
+    color: #939393;
+    font-weight: 400;
+    margin-bottom: .266667rem;
+    font-size: .373333rem;
+}
+
+.main_rank {
+    height: 1.6rem;
+}
+
+.main_l {
+    position: relative;
+    width: .933333rem;
+}
+
+.main_l span {
+    font-size: .426667rem;
+    color: #939393;
+}
+
+.main_rank:nth-child(-n + 4) .main_l span {
+    color: #f26678;
+}
+
+.main_l .iconfont {
+    position: absolute;
+    bottom: -0.266667rem;
+    left: -.4rem;
+    color: #939393;
+    font-size: .32rem;
+}
+
+.main_l .iconfont::before {
+    color: #f26678;
+}
+
+.main_c {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main_c p,
+.main_c span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main_c p {
+    font-size: .373333rem;
+}
+
+.main_c span {
+    font-size: .32rem;
+    color: #939393;
+}
+
+.main_r {
+    margin-top: .133333rem;
+}
+
+.main_r a {
+    color: #939393;
+}
+
+/* 底部 */
+footer {
+    padding: .533333rem;
+}
+
+footer h3 {
+    font-size: .426667rem;
+    font-weight: normal;
+}
+
+footer p {
+    color: #121212;
+    font-size: .346667rem;
+    font-family: sans-serif;
+}

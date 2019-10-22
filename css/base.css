@@ -1,0 +1,115 @@
+body {
+    min-width: 320px;
+    max-width: 640px;
+    width: 10rem;
+    margin: 0 auto;
+    font: .1875rem/1.5 sans-serif "hiragino sans gb", arial;
+    color: #000;
+    background-color: #fff;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 640px) {
+    html {
+        font-size: 64px!important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 32px!important;
+    }
+}
+
+a {
+    text-decoration: none;
+    font-size: .21875rem;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+input, button {
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+.wrap {
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.3);
+    z-index: 999;
+}
+
+.mask_in {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+/* 炫酷彩铃 */
+.ringtone {
+    text-align: center;
+    position: fixed;
+    bottom: 1.066667rem;
+    right: .4rem;
+    width: 1.226667rem;
+    height: 1.226667rem;
+    line-height: .613333rem;
+    background-color: #22d59d;
+    border-radius: 50%;
+}
+
+.ringtone a {
+    color: #fff;
+    font-size: .32rem;
+}

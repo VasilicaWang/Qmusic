@@ -1,0 +1,381 @@
+.wrap {
+    background-color: #fff;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 遮罩 */
+.mask {
+    display: none;
+}
+
+.mask_in {
+    width: 7.893333rem;
+    background-color: #fff;
+    border-radius: .133333rem;
+    overflow: hidden;
+}
+
+.mask_in p {
+    padding: .8rem;
+    text-align: center;
+    font-size: .426667rem;
+    color: #464646;
+    margin: 0;
+}
+
+.mask_in .btn-group {
+    width: 100%;
+}
+
+.mask_in .btn-default {
+    width: 50%;
+    border-radius: 0;
+    height: 1.173333rem;
+    border-bottom: 0;
+    font-size: .426667rem;
+    border-color: #f0f1f3;
+}
+
+.mask_in .btn-default:last-child {
+    border-right: 0;
+    color: #40c685;
+}
+
+.mask_in .btn-default:first-child {
+    border-left: 0;
+    color: #464646;
+}
+
+
+
+/* 头部 */
+header {
+    height: 2.133333rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .266667rem;
+    background-color: #fff;
+    box-shadow: 0 .133333rem .133333rem rgba(0, 0, 0, .02);
+}
+
+.logo_brand {
+    height: 1.6rem;
+    margin: 0;
+}
+
+.logo_brand a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1.6rem;
+    background: url(../img/brand.png) no-repeat left center;
+    background-size: contain;
+    font-size: .346667rem;
+    color: #808080;
+    font-weight: 400;
+    padding-left: 1.866667rem;
+}
+
+.logo_brand a span {
+    font-size: .426667rem;
+    color: #000;
+    margin: 0;
+}
+
+.view_more {
+    padding: .08rem .32rem;
+    border: .026667rem solid #b9b9b9;
+    border-radius: .373333rem;
+    font-size: .373333rem;
+}
+
+.view_more a {
+    font-size: .373333rem;
+    color: #121212;
+}
+
+
+/* 歌曲信息 */
+.single_info {
+    text-align: center;
+    background: url(../upload/single_pic.jpg) no-repeat center top;
+    background-size: 100% auto;
+}
+
+
+.single_info_in {
+    overflow: hidden;
+    background: linear-gradient(rgba(255, 255, 255, .8), #fff);
+}
+
+.song_title h4 {
+    font-size: .48rem;
+    margin: .533333rem 0 .266667rem;
+}
+
+.song_title span {
+    color: #808080;
+    font-size: .373333rem;
+}
+
+.song_cover {
+    position: relative;
+    margin: .4rem 0 .533333rem;
+}
+
+.song_cover img {
+    width: 6.24rem;
+    box-shadow: 0 0 .266667rem rgba(0, 0, 0, .3);
+}
+
+.song_cover i {
+    position: absolute;
+    bottom: .933333rem;
+    right: 50%;
+    margin-right: -3.733333rem;
+    color: #949494;
+}
+
+.song_btn {
+    display: flex;
+    justify-content: space-between;
+    width: 6.24rem;
+    margin: 0 auto;
+}
+
+.song_btn .iconfont {
+    display: block;
+    width: 1.066667rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    border: .026667rem solid #d3d3d3;
+    border-radius: .533333rem;
+}
+
+.song_load {
+    margin-top: .533333rem;
+}
+
+.song_load a {
+    display: inline-block;
+    width: 6.24rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    border-radius: .533333rem;
+    color: #fff;
+    background-color: #fff;
+    background-color: #22d59d;
+    font-size: .48rem;
+}
+
+/* 猜你喜欢听 */
+/* 歌手与专辑 */
+.like,
+.singer {
+    padding: .4rem 0 0 .4rem;
+}
+
+.common_title {
+    height: 1.466667rem;
+    line-height: 1.466667rem;
+    font-size: .426667rem;
+    margin: 0;
+    text-align: center;
+}
+
+.like_img img {
+    margin-right: .266667rem;
+    width: 1.733333rem;
+}
+
+.like_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    height: 1.733333rem;
+    border-bottom: .026667rem solid #eee;
+    overflow: hidden;
+}
+
+.like li:last-child .like_info,
+.singer li:last-child .like_info {
+    border: 0;
+}
+
+.like_info h4 {
+    margin: 0;
+    font-size: .373333rem;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.like_info p {
+    margin: 0;
+    color: #808080;
+    font-size: .32rem;
+}
+
+.like_info .iconfont {
+    position: absolute;
+    top: 50%;
+    right: .4rem;
+    transform: translateY(-50%);
+    font-size: .373333rem;
+    color: #6c6c6c;
+}
+
+/* 大家都在听 */
+.all_listen {
+    padding: .4rem .4rem 0;
+}
+
+.all_listen ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all_listen>ul>li {
+    width: 33%;
+}
+
+.all_top img {
+    width: 100%;
+}
+
+.all_listen li p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: .133333rem 0 0;
+    font-size: .373333rem;
+}
+
+.all_listen li span {
+    font-size: .32rem;
+    color: #808080;
+}
+
+/* 精彩评论 */
+.comment {
+    padding: .4rem .4rem 0;
+}
+
+.com_avatar {
+    width: 1.066667rem;
+    height: 1.066667rem;
+    border-radius: .533333rem;
+    overflow: hidden;
+    margin-right: .266667rem;
+}
+
+.com_avatar img {
+    width: 100%;
+}
+
+.com_con {
+    overflow: hidden;
+}
+
+.com_top a {
+    color: #b9b9b9;
+    font-size: .32rem;
+}
+
+.com_name p {
+    margin: 0;
+    color: #808080;
+}
+
+.com_name p span {
+    font-size: .373333rem;
+}
+
+.com_name p:last-child {
+    font-size: .32rem;
+}
+
+.com_details i {
+    color: #f0b961;
+    margin-right: .133333rem;
+}
+
+.com_details {
+    margin-bottom: .533333rem;
+    font-size: .373333rem;
+}
+
+.con_bottom {
+    text-align: center;
+}
+
+.con_bottom a {
+    display: inline-block;
+    width: 6.24rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    border: .026667rem solid #e6e6e6;
+    border-radius: .533333rem;
+    color: #828282;
+}
+
+.con_bottom a i {
+    font-size: .32rem;
+}
+
+/* 推荐音乐视频 */
+.recommend {
+    position: relative;
+    padding: .4rem .4rem 1.066667rem;
+}
+
+.recommend_video img {
+    width: 100%;
+}
+
+.recommend p {
+    margin-top: .133333rem;
+    font-size: .373333rem;
+}
+
+.recommend i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    width: 1.173333rem;
+    height: 1.173333rem;
+    line-height: 1.066667rem;
+    text-align: center;
+    color: #fff;
+    border: .053333rem solid #fff;
+    border-radius: 50%;
+    font-size: .64rem;
+}
+
+/* 底部 */
+footer {
+    text-align: center;
+    padding: 0 .4rem .533333rem;
+}
+
+footer a {
+    display: inline-block;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    padding: 0 .8rem;
+    border-radius: .533333rem;
+    color: #fff;
+    background-color: #22d59d;
+    font-size: .48rem;
+}
+
