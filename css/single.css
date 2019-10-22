@@ -191,16 +191,21 @@ header {
     text-align: center;
 }
 
+.like li,
+.singer li {
+    height: 1.733333rem;
+}
+
 .like_img img {
     margin-right: .266667rem;
     width: 1.733333rem;
 }
 
 .like_info {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    position: relative;
     height: 1.733333rem;
     border-bottom: .026667rem solid #eee;
     overflow: hidden;
