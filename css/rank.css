@@ -98,7 +98,7 @@ header {
     border-radius: .4rem;
     overflow: hidden;
     margin: .4rem auto .533333rem;
-    box-shadow: 0 .106667rem .266667rem rgba(0,0,0,.3);
+    box-shadow: 0 .106667rem .266667rem rgba(0, 0, 0, .3);
 }
 
 .top_img img {
@@ -178,6 +178,10 @@ main h5 {
 
 .main_c {
     overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

@@ -197,6 +197,10 @@ header {
 }
 
 .like_info {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -257,6 +261,7 @@ header {
     text-overflow: ellipsis;
     margin: .133333rem 0 0;
     font-size: .373333rem;
+    line-height: 1;
 }
 
 .all_listen li span {
@@ -325,6 +330,7 @@ header {
     border: .026667rem solid #e6e6e6;
     border-radius: .533333rem;
     color: #828282;
+    font-size: .32rem;
 }
 
 .con_bottom a i {
