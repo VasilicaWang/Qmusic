@@ -179,11 +179,11 @@ main h5 {
 
 .main_c {
     overflow: hidden;
-    /* height: 100%; */
+    height: 100%;
     /* font-size: .426667rem; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
 }
 
 .main_c p,
