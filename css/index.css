@@ -169,11 +169,6 @@ nav a.current {
     margin-bottom: .266667rem;
 }
 
-/*.recommend_common ul li:nth-child(2n - 1) {
-    margin-right: 10px;
-    background-color: pink;
-}*/
-
 .recommend_common ul img {
     width: 100%;
     display: block;
@@ -308,9 +303,10 @@ nav a.current {
 
 .search_top i {
     position: absolute;
-    top: .48rem;
+    top: .586667rem;
     left: .533333rem;
     color: #bdbdbd;
+    font-size: .426667rem;
 }
 
 .search_top input {
