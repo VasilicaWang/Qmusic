@@ -1,3 +1,4 @@
+
 /* 遮罩 */
 .mask {
     display: none;
@@ -156,7 +157,7 @@ main h5 {
 }
 
 .main_l span {
-    font-size: .426667rem;
+    font-size: .533333rem;
     color: #939393;
 }
 
@@ -178,10 +179,8 @@ main h5 {
 
 .main_c {
     overflow: hidden;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+    /* height: 100%; */
+    /* font-size: .426667rem; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
