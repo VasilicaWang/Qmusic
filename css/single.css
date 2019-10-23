@@ -74,7 +74,6 @@ header {
 .logo_brand a {
     display: flex;
     flex-direction: column;
-    /*justify-content: space-evenly;*/
     justify-content: space-around;
     height: 1.6rem;
     background: url(../img/brand.png) no-repeat left center;
@@ -206,7 +205,6 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
-    /*justify-content: space-evenly;*/
     justify-content: space-around;
     height: 1.733333rem;
     border-bottom: .026667rem solid #eee;
